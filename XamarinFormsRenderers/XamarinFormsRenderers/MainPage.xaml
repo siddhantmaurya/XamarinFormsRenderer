@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:local="clr-namespace:XamarinFormsRenderers.CustomRendererControls"
              x:Class="XamarinFormsRenderers.MainPage">
 
     <StackLayout>
@@ -11,6 +12,13 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+
+        <Entry Placeholder="Default entry android Control "
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand" />
+        <local:RoundedEntry Placeholder="Custom rounded entry control"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
 </ContentPage>

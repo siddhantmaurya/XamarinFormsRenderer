@@ -19,6 +19,7 @@
         <local:RoundedEntry Placeholder="Custom rounded entry control"
                             HorizontalOptions="CenterAndExpand"
                             VerticalOptions="CenterAndExpand" />
+        <local:RoundedButton/>
     </StackLayout>
 
 </ContentPage>
